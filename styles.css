@@ -1,0 +1,118 @@
+body{
+    background: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+.header{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(Starlink_G7_3_OS_56_5196_Desktop_501dcd8c6a.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    padding: 25px 25px;
+    /* justify-content: space-between; */
+}
+.logo{
+    
+    color: #992828;
+    width: 150px;
+    cursor: pointer;
+    padding: 0% 20px;
+    height: 60px;
+}
+a{
+    color: #fff;
+    
+}
+svg{
+    fill: #fff;
+}
+.header svg{
+    width: 200px;
+}
+.center-nav{
+    height: 35px;
+    width: 66%;
+    padding-top: 8px;
+    margin-left: 4%;
+}
+.center-nav a{
+    text-decoration: none;
+    padding: 0% 13px; 
+    font-size: 11px;
+}
+.right-nav a{
+     text-decoration: none;
+     font-size: 13px;
+}
+.right-nav i{
+    padding-left: 20px;
+}
+.right-nav{
+    height: 35px;
+    width: 8%;
+    padding-top: 8px;
+    margin-left: 3%;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+}
+.head-border{
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: #fff;
+    width: 50%;
+    height: 50px;
+}
+.header-content h3{
+    margin-bottom: -15px;
+}
+.image-1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.image-2{
+    width: 100%;
+    height: 100vh;
+
+}
+.image-3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.text-1{
+    position: absolute;
+    margin-top: -300px;
+    padding: 0% 70PX;
+}
+.text-2{
+    position: absolute;
+    margin-top: -300px;
+    padding: 0% 70px;
+}
+.text-3{
+    position: absolute;
+    margin-top: -300px;
+    padding: 0% 70px;
+}
+.conclusion{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 35%;
+}
+.conclusion a,h6{
+    text-align: center;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: small;
+}
